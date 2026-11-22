@@ -373,7 +373,7 @@ public class ForgeActivity extends AppCompatActivity {
                     tvLangPill.setText(h.guessedLang.name());
                     tvRomDetail.setText(summary);
                     tvRomMsg.setText("Da nap ROM. Bam Quet & Trich xuat.");
-                    log("[ROM] " + n + " -> " + h.guessedLang.label);
+                    log("[ROM] " + romName + " -> " + h.guessedLang.label)
                     setBusy(false);
                 });
             } catch (Exception e) {
